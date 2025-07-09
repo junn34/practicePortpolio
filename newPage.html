@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>배준혁의 포트폴리오</title>
+    <link rel="stylesheet" href="newStyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="welcome-section">
+      <div class="overlay"></div>
+      <div class="welcome-text">
+        <h2>배준혁</h2>
+        <h1>백엔드 개발자 포트폴리오</h1>
+        <p>
+          시행착오를 겪는 것이 배움이라고 생각하는 개발자 <br />
+          배준혁입니다.
+        </p>
+      </div>
+    </div>
+
+    <header>
+      <h1 id="home"></h1>
+      <hr class="head-line" />
+      <nav class="menu">
+        <ul>
+          <li class="font-home">홈</li>
+          <li><a href="#project">Project</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr class="header-line" />
+
+    <!-- 소개 및 기술스택 -->
+    <section class="intro-section">
+      <div class="intro-container">
+        <!-- 프로필 + 선 묶음 -->
+        <div class="profile-box">
+          <img
+            src="배준혁 민증면허증.jpg"
+            alt="프로필 사진"
+            class="profile-img"
+          />
+        </div>
+
+        <!-- 소개 및 기술스택 -->
+        <div class="intro-text">
+          <h2>소개</h2>
+          <p>
+            배준혁입니다.<br />
+            모든 서비스의 시작은 개발자가 겪은 경험들이 담겨있다고
+            생각합니다.<br />
+            내가 알고 느끼는 것을 모두에게 알려주는 개발자가 목표입니다.<br />
+          </p>
+          <hr class="tech-line" />
+          <h3>기술 스택</h3>
+          <div class="tech-tags">
+            <span class="tag orange">Java</span>
+            <span class="tag orange">Spring Boot</span>
+            <span class="tag blue">MySQL</span>
+            <span class="tag pink">Git</span>
+          </div>
+          <div class="temp-button">
+            <button class="newToOld" onclick="newToOld()">
+              과거 버전 변환하기
+            </button>
+          </div>
+        </div>
+
+        <!-- 내 정보 -->
+        <div class="myInfo-grid">
+          <div class="info-box">
+            <i class="fas fa-user"></i>
+            <div>
+              <div class="label">이름</div>
+              <div class="value">배준혁</div>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-calendar-alt"></i>
+            <div>
+              <div class="label">생년월일</div>
+              <div class="value">2002.02.06</div>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <div class="label">이메일</div>
+              <div class="value">lucasorjh3412@gmail.com</div>
+            </div>
+          </div>
+          <div class="info-box">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <div class="label">학력</div>
+              <div class="value">상명대학교 컴퓨터과학과</div>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <i class="fab fa-github"></i>
+
+            <div>
+              <div class="label">Github</div>
+              <div class="value">https://github.com/junn34</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="p-line" />
+
+    <!-- 프로젝트 섹션 -->
+    <header>
+      <h1 id="project">PROJECTS</h1>
+    </header>
+
+    <main>
+      <section class="project-section">
+        <div class="project-grid">
+          <div class="project-card">
+            <span class="badge red">딥러닝</span>
+            <p class="date">2024.05</p>
+            <h3>
+              <strong
+                >서울시 공공자전거 데이터를 이용한 공공자전거 사용량
+                예측</strong
+              >
+            </h3>
+            <ul>
+              <li>회귀 모델 구현,학습,예측</li>
+              <li>공공자전거 대여량 데이터와 기후 데이터를 사용</li>
+            </ul>
+            <a
+              href="https://github.com/junn34/data-analysis-project.git"
+              target="_blank"
+              style="text-decoration-line: none"
+              >Github 링크</a
+            >
+            <div class="tech-tags">
+              <span class="tag blue">Python</span>
+              <span class="tag orange">Google Colab</span>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <span class="badge red">딥러닝</span>
+            <p class="date">2025.03</p>
+            <h3><strong>딥러닝 모델을 활용한 CPI 예측 프로젝트</strong></h3>
+            <ul>
+              <li>CNN-LSTM 시계열 모델 구현</li>
+              <li>향후 1년의 CPI 예측</li>
+            </ul>
+            <a
+              href="https://github.com/junn34/Project_with_CNN_LSTM-.git"
+              target="_blank"
+              style="text-decoration-line: none"
+              >Github 링크</a
+            >
+            <div class="tech-tags">
+              <span class="tag blue">Python</span>
+              <span class="tag pink">Pytorch</span>
+              <span class="tag purple">React</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="home-button">
+      <a href="#home" class="goHome">홈으로 가기</a>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

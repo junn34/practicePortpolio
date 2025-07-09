@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>개발 연습생 배준혁의 공간</title>
+    <link id="changeStyle" rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>준혁's 미니홈피★</h1>
+        <p class="sub">"방문을 환영합니다~ 방명록 꼭 남겨줘요ㅎㅎ"</p>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="#">홈</a></li>
+          <li><a href="#">자기소개</a></li>
+          <li><a href="https://github.com/junn34">프로젝트</a></li>
+          <li><a href="#">방명록</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <section class="oldSection">
+          <!-- 왼쪽: 사진 -->
+          <div class="oldImg">
+            <img src="배준혁 민증면허증.jpg" alt="민증" class="myimg" />
+          </div>
+
+          <!-- 가운데: 자기소개 텍스트 -->
+          <div class="intro-text">
+            <h2>안녕하세요~!!</h2>
+            <p>
+              백엔드 개발자를 꿈꾸는 배준혁입니다ㅎㅎ<br />
+              요즘은 Spring Boot랑 REST API 공부중이에요~ <br />
+              내가 알고 느끼는 것을 모두에게 알려주는 개발자가 되고싶어요<br />
+            </p>
+          </div>
+
+          <!-- 오른쪽: 버튼 -->
+          <div class="side-widget">
+            <button class="oldToNew" onclick="oldToNew()">
+              최신 버전 업데이트
+            </button>
+          </div>
+        </section>
+
+        <section>
+          <h2>프로젝트</h2>
+          <ul>
+            <li>
+              <strong> CPI 예측 모델 구현 프로젝트</strong> - "Pytorch...
+              너무어려워~~"
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <p>2005년 제작 ©배준혁</p>
+      </footer>
+    </div>
+
+    <!-- JS 연결 -->
+    <script src="app.js"></script>
+  </body>
+</html>
