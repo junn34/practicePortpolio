@@ -32,14 +32,7 @@ header h1 {
   justify-content: space-around;
 }
 
-.menu a {
-  display: block;
-  padding: 5px;
-  color: inherit;
-  font-size: 20px;
-  text-decoration: none;
-  font-weight: bold;
-}
+
 
 .font-home {
   display: block;
@@ -102,12 +95,7 @@ header h1 {
   line-height: 40px;
 }
 
-.myInfo-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px 40px;
-  margin-top: 10px;
-}
+
 
 .info-box {
   display: flex;
@@ -317,7 +305,7 @@ header h1 {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url('ocean.jpg');
+  background-image: url('ocean.webp');
   background-size: cover;
   background-position: center;
   filter: brightness(90%);
